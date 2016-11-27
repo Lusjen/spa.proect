@@ -108,9 +108,9 @@ body
 .btn
 {
     font-family: 'Open Sans';
+    font-size: 14px;
     font-weight: 700;
-    line-height: 24px;
-    font-size:14px;
+
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
@@ -128,7 +128,7 @@ body
     display: inline-block;
     overflow: hidden;
 
-    padding: 23px 28px;
+    padding: 20px 25px;
 
     -webkit-transition: background-color ease .3s, color ease .3s;
             transition: background-color ease .3s, color ease .3s;
@@ -137,7 +137,10 @@ body
     border-radius: 6px;
     background: #9c0;
 }
-
+buttom
+{
+    padding: 0;
+}
 .btn:hover,
 .btn:focus,
 .btn:active
@@ -301,7 +304,8 @@ body
 
 @media screen and (max-width: 480px)
 {
-    .btn-spa, .btn-gra
+    .btn-spa,
+    .btn-gra
     {
         padding: 10px 16px;
     }
@@ -327,7 +331,8 @@ body
 }
 @media screen and (max-width: 680px)
 {
-    .btn-spa, .btn-gra
+    .btn-spa,
+    .btn-gra
     {
         padding: 14px 20px;
     }
@@ -1353,7 +1358,7 @@ li
 
 .experts-icon a
 {
-    margin-right: 7px;
+    margin: 12px;
 }
 
 .experts-item:hover .experts-icon
@@ -1370,6 +1375,18 @@ li
     .experts-icon a
     {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .experts-icon a
+    {
+        margin: 5px;
+    }
+    .experts-title
+    {
+        font-size: 11px;
     }
 }
 
