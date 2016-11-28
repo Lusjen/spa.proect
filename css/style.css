@@ -1328,7 +1328,7 @@ li
     padding: 10px 0;
 
     cursor: pointer;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform: translate(0, 100%);
     text-align: center;
 
@@ -1483,7 +1483,7 @@ li
     font-weight: 700;
 
     text-transform: uppercase;
-
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -1787,7 +1787,7 @@ button[type='button']
     background-color: white;
 }
 
-input[type='email']::-webkit-input-placeholder
+.newsletter input[type='email']::-webkit-input-placeholder
 {
     font-size: 14px;
     font-weight: 400;
@@ -1888,11 +1888,14 @@ input[type='email']::-webkit-input-placeholder
     background-color: #f8f6f7;
 }
 
+
 .user-info input[type='email']
 {
     float: right;
 
     margin-right: 0;
+
+
 }
 
 .user-info input[type='text1']
@@ -1923,6 +1926,7 @@ input[type='email']::-webkit-input-placeholder
 .user-info input[type='submit']:hover
 {
     background: green;
+    cursor: pointer;
 }
 
 .contact-info
