@@ -1882,7 +1882,7 @@ button[type='button']
     box-sizing: border-box;
     width: 100%;
     padding: 19px 0 0 14px;
-
+    outline: none;
     border: 1px solid #ccc;
     border-radius: 3px;
     background-color: #f8f6f7;
@@ -2109,7 +2109,7 @@ button[type='button']
     display: inline-block;
 
     width: 28%;
-    margin-right: 42%;
+    margin-right: 40%;
 
     color: white;
 }
@@ -2118,7 +2118,7 @@ button[type='button']
 {
     display: inline-block;
 
-    width: 30%;
+    width: 32%;
 }
 
 .text
